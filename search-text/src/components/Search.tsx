@@ -3,7 +3,7 @@ import React, { useState, ChangeEvent } from "react";
 function Search(){
     const [ searchText, setSearchText ] = useState<string>("");
 
-    const text: string = "My Name is Nour Nour Nour";
+    const text: string = "With all the new peoperties related to CSS layout, one of the distinctions that always confused me was the differnece between the grid template adn grid auto";
 
     const getSearchTextHilights = (text: string, highlight: string) => {
         if (!highlight) return text;
